@@ -6,6 +6,7 @@
 
 ## Полезные ресурсы
 - [Распределение задач](https://docs.google.com/spreadsheets/d/1kCbNuW-1wv6cBMMUvYl7X29OEylRSKIGED_SfiRJxOo/edit#gid=0)
+- [Таблица мониторинга](https://docs.google.com/spreadsheets/d/1xXwnaybb6in3EgXpH9NTcAP0VLNQdn1li14B5I3Vfes/edit#gid=0)
 - [Задачи для студентов Политеха](https://docs.google.com/document/d/1ie6gu6yJIXbuKuFe8wL5bkG4tGorYXvv5Vze41JRIQ8/edit)
 
 ## Команда проекта
