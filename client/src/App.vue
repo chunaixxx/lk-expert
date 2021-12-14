@@ -5,6 +5,8 @@
     <VButton class="button_secondary"> Самара </VButton>
     <VButton class="button_primary-400"> Самара </VButton>
     <VInput placeholder="Абоба"/>
+    <img src="./assets/logo.svg" alt="">
+    <img src="./assets/logo2.svg" alt="">
   </div>
 </template>
 
