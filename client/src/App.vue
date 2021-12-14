@@ -4,6 +4,7 @@
     <VButton class="button_primary-600"> Самара </VButton>
     <VButton class="button_secondary"> Самара </VButton>
     <VButton class="button_primary-400"> Самара </VButton>
+    <VInput placeholder="Абоба"/>
   </div>
 </template>
 
