@@ -1,7 +1,7 @@
 $secondary: #e53151;
 $backgroundPage: #e5e5e5;
 $backgroundAside: #fff;
-$backgroundHeader: linear-gradient(180deg, #18183a 0%, #16286f 100%);
+$backgroundHeader: radial-gradient(ellipse at 50% 154%, #2b25d9 0%, #0f0e30 80%);
 $primary-1000: #181738;
 $primary-900: #2a294b;
 $primary-800: #181d4d;
@@ -13,4 +13,4 @@ $primary-300: #73758d;
 $primary-200: #d2d6e3;
 $primary-100: #e8ebf4;
 
-$defaultTransition: color .154s ease-in;
+$defaultTransition: all 0.154s ease-in;

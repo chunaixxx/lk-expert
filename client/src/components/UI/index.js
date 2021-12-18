@@ -1,9 +1,9 @@
-import VButton from "./VButton.vue"
-import VInput from "./VInput.vue"
+import VButton from './VButton.vue'
+import VInput from './VInput.vue'
 
 const Components = {
-  VButton,
-  VInput
+	VButton,
+	VInput
 }
 
 export default Components
