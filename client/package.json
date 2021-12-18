@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "prettier": "^2.5.1",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
@@ -33,12 +34,27 @@
     },
     "extends": [
       "plugin:vue/vue3-essential",
-      "eslint:recommended"
+      "eslint:recommended",
+      "@vue/prettier"
     ],
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "prettier/prettier": [
+        "warn",
+        {
+          "singleQuote": true,
+          "semi": false,
+          "useTabs": true,
+          "arrowParens": "avoid",
+          "trailingComma": "none",
+          "endOfLine": "auto"
+        }
+      ],
+      "no-console": "process.env.NODE_ENV === 'production' ? 'warn' : 'off'",
+      "no-debugger": "process.env.NODE_ENV === 'production' ? 'warn' : 'off'"
+    }
   },
   "browserslist": [
     "> 1%",
