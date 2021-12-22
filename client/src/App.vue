@@ -2,11 +2,13 @@
 	<div class="app">
 		<Header title="Кабинет экспертов" />
 		<router-view />
+		<Footer />
 	</div>
 </template>
 
 <script setup>
-import Header from '@/components/UI/Header.vue'
+import Header from '@/components/Header.vue'
+import Footer from '@/components/Footer.vue'
 </script>
 
 <style lang="scss">
@@ -16,6 +18,11 @@ import Header from '@/components/UI/Header.vue'
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
 }
 
 .app {
