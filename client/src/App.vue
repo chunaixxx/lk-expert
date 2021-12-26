@@ -1,7 +1,9 @@
 <template>
 	<div class="app">
 		<Header title="Кабинет экспертов" />
-		<router-view />
+		<main class="app__main">
+			<router-view />
+		</main>
 		<Footer />
 	</div>
 </template>
@@ -29,5 +31,12 @@ a {
 	font-family: 'Roboto', sans-serif;
 	background: $backgroundPage;
 	min-height: 100vh;
+
+	&__main {
+		min-height: calc(100vh - 374px);
+	}
+}
+img {
+	-webkit-user-drag: none;
 }
 </style>
