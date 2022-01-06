@@ -1,11 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Registration from '../views/Registration.vue'
+import ExpertList from '../views/ExpertList.vue'
 
 const routes = [
 	{
 		name: 'Registration',
 		component: Registration,
 		path: '/registration'
+	},
+	{
+		name: 'ExpertList',
+		component: ExpertList,
+		path: '/experts'
 	}
 ]
 

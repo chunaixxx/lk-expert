@@ -1,34 +1,6 @@
 <template>
 	<div class="registration">
-		<aside class="registration__aside">
-			<nav class="nav">
-				<router-link to="/registration">
-					<VButton class="button_primary-900 nav__button">
-						Личный кабинет
-					</VButton>
-				</router-link>
-				<router-link to="/s">
-					<VButton class="button_primary-900 nav__button">
-						Каталог решений
-					</VButton>
-				</router-link>
-				<router-link to="/s">
-					<VButton class="button_primary-900 nav__button">
-						Заявки экспертов
-					</VButton>
-				</router-link>
-				<router-link to="/s">
-					<VButton class="button_primary-900 nav__button">
-						Отчеты об оценках
-					</VButton>
-				</router-link>
-				<router-link to="/s">
-					<VButton class="button_primary-900 nav__button">
-						Список экспертов
-					</VButton>
-				</router-link>
-			</nav>
-		</aside>
+		<VAside></VAside>
 		<div class="registration__right">
 			<h2 class="registration__title">Регистрация</h2>
 			<h3 class="registration__subtitle">Укажите ваши личные данные</h3>
@@ -134,12 +106,6 @@ import VRadio from '../components/UI/VRadio.vue'
 	justify-content: space-between;
 	padding-top: 30px;
 
-	&__aside {
-		max-width: 467px;
-		width: 100%;
-		padding: 0 40px;
-	}
-
 	&__right {
 		background: #fff;
 		padding: 33px 68px 82px 68px;
@@ -178,12 +144,6 @@ import VRadio from '../components/UI/VRadio.vue'
 		display: flex;
 		gap: 25px;
 		align-items: center;
-	}
-}
-
-.nav {
-	&__button {
-		width: 100%;
 	}
 }
 
