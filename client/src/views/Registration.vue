@@ -51,8 +51,21 @@
 					/>
 				</label>
 				<label class="label">
-					<h6 class="label__title">Дата рождения</h6>
-					<VRadio value="foo" />
+					<h6 class="label__title">Пол</h6>
+					<div class="label__radio-group">
+						<VRadio
+							name="foo"
+							v-model="gender"
+							value="Мужской"
+							class="registration__radio"
+						/>
+						<VRadio
+							name="foo"
+							v-model="gender"
+							value="Женский"
+							class="registration__radio"
+						/>
+					</div>
 				</label>
 
 				<h3 class="registration__subtitle">Придумайте логин и пароль</h3>
@@ -98,7 +111,10 @@
 </template>
 
 <script setup>
+import { ref } from 'vue'
 import VRadio from '../components/UI/VRadio.vue'
+
+const gender = ref('')
 </script>
 <style lang="scss" scoped>
 .registration {
@@ -167,6 +183,13 @@ import VRadio from '../components/UI/VRadio.vue'
 	&__textarea {
 		width: 100%;
 		height: 100%;
+	}
+
+	&__radio-group {
+		min-height: 44px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
 	}
 }
 
