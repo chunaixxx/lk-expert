@@ -78,7 +78,7 @@
 				<label class="label">
 					<h6 class="label__title">Пароль</h6>
 					<VInput
-						type="text"
+						type="password"
 						name="surname"
 						placeholder="Введите пароль"
 						class="label__input"
@@ -128,6 +128,7 @@ import VRadio from '../components/UI/VRadio.vue'
 	&__title {
 		font-size: 40px;
 		color: $primary-500;
+		font-weight: 400;
 		margin-bottom: 50px;
 	}
 

@@ -1,8 +1,5 @@
 <template>
 	<input
-		type="text"
-		name=""
-		id=""
 		class="input"
 		@input="$emit('update:modelValue', $event.target.value)"
 		:value="props.modelValue"
