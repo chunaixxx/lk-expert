@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Registration from '../views/Registration.vue'
 import Login from '../views/Login.vue'
 import ExpertList from '../views/ExpertList.vue'
-import ExpertProfile from '../views/ExpertProfile.vue'
+import ExpertInfo from '../views/ExpertInfo.vue'
 
 const routes = [
 	{
@@ -21,8 +21,8 @@ const routes = [
 		path: '/experts'
 	},
 	{
-		name: 'ExpertProfile',
-		component: ExpertProfile,
+		name: 'ExpertInfo',
+		component: ExpertInfo,
 		path: '/experts/:id'
 	}
 ]
