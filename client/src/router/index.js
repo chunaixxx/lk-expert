@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Registration from '../views/Registration.vue'
 import Login from '../views/Login.vue'
 import ExpertList from '../views/ExpertList.vue'
+import ExpertProfile from '../views/ExpertProfile.vue'
 
 const routes = [
 	{
@@ -18,6 +19,11 @@ const routes = [
 		name: 'ExpertList',
 		component: ExpertList,
 		path: '/experts'
+	},
+	{
+		name: 'ExpertProfile',
+		component: ExpertProfile,
+		path: '/experts/:id'
 	}
 ]
 

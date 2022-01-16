@@ -120,7 +120,6 @@ const gender = ref('')
 .registration {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 30px;
 
 	&__right {
 		background: #fff;

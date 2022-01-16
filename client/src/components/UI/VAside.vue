@@ -42,5 +42,11 @@
 	&__button {
 		width: 100%;
 	}
+
+	&__nav {
+		top: 20px;
+		left: 0;
+		position: sticky;
+	}
 }
 </style>

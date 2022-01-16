@@ -34,6 +34,7 @@ a {
 
 	&__main {
 		min-height: calc(100vh - 374px);
+		padding-top: 30px;
 	}
 }
 img {

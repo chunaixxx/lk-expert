@@ -43,7 +43,6 @@ const password = ref('')
 
 <style lang="scss" scoped>
 .login-wrapper {
-	padding-top: 30px;
 	display: flex;
 
 	&__right {

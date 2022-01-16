@@ -3,33 +3,29 @@
 		<VAside></VAside>
 		<div class="expert-list__list">
 			<h2 class="expert-list__title">Список экспертов</h2>
-			<VExpertCard
+			<router-link
 				v-for="expert in experts"
+				:to="'/experts/' + expert.id"
 				:key="expert.id"
-				:expert="expert"
-				class="expert-list__card"
-			></VExpertCard>
+			>
+				<VExpertCard :expert="expert" class="expert-list__card"></VExpertCard>
+			</router-link>
 		</div>
+		{{ expertOne }}
 	</div>
 </template>
 
 <script setup>
-const experts = [
-	{
-		id: 1,
-		img: 'https://img.ubu.ru/gal_v_ofis_trebuetsya_mladshiy_ofisnyy_sotrudnik_100675312.jpg',
-		name: 'Иванов Иван Иванович',
-		age: 32,
-		workExperience: 8,
-		advantages: 'Объективно и достойно оценивает инновационные продукты',
-		count: 21
-	}
-]
+import { computed } from 'vue'
+import { useStore } from 'vuex'
+
+const store = useStore()
+
+const experts = computed(() => store.getters.getExperts)
 </script>
 
 <style lang="scss" scoped>
 .expert-list {
-	padding-top: 30px;
 	display: flex;
 
 	&__list {
