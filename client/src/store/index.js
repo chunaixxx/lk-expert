@@ -25,6 +25,5 @@ export default createStore({
 		getExpertById: state => id => state.experts.find(expert => expert.id == id)
 	},
 	mutations: {},
-	actions: {},
-	modules: {}
+	actions: {}
 })
