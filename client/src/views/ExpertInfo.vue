@@ -40,6 +40,9 @@
 			</div>
 			<div class="profile__right">
 				<img :src="expert.img" alt="" class="profile__img" />
+				<div class="profile__top">
+					Входит в топ {{ expert.top }} % активных профилей
+				</div>
 			</div>
 		</div>
 	</div>
@@ -112,6 +115,18 @@ const expert = computed(() => getExpertById(id))
 
 	&__certificate {
 		width: 122px;
+	}
+
+	&__top {
+		width: 216px;
+		color: #fff;
+		background: $secondary;
+		padding: 6px;
+		box-sizing: border-box;
+		border-radius: 7px;
+		text-transform: uppercase;
+		margin-top: 20px;
+		text-align: center;
 	}
 }
 </style>
