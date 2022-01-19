@@ -15,11 +15,19 @@
 	color: #fff;
 	cursor: pointer;
 	display: block;
+	background: none;
 
 	&_primary-outline-600 {
 		background: transparent;
 		color: $primary-600;
 		box-shadow: 0px 0px 0px 1px $primary-600 inset;
+	}
+	&_primary-900 {
+		color: $primary-900;
+	}
+	.header__nav-link_active &_primary-900 {
+		background: $primary-900;
+		color: #fff;
 	}
 
 	&_primary-600 {

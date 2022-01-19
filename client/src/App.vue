@@ -1,12 +1,16 @@
 <template>
 	<div class="app">
 		<Header title="Кабинет экспертов" />
-		<router-view />
+		<main class="app__main">
+			<router-view />
+		</main>
+		<Footer />
 	</div>
 </template>
 
 <script setup>
-import Header from '@/components/UI/Header.vue'
+import Header from '@/components/Header.vue'
+import Footer from '@/components/Footer.vue'
 </script>
 
 <style lang="scss">
@@ -18,9 +22,22 @@ import Header from '@/components/UI/Header.vue'
 	box-sizing: border-box;
 }
 
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
 .app {
 	font-family: 'Roboto', sans-serif;
 	background: $backgroundPage;
 	min-height: 100vh;
+
+	&__main {
+		min-height: calc(100vh - 374px);
+		padding-top: 30px;
+	}
+}
+img {
+	-webkit-user-drag: none;
 }
 </style>
