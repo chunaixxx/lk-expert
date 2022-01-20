@@ -3,7 +3,7 @@ import Registration from '../views/Registration.vue'
 import Login from '../views/Login.vue'
 import ExpertList from '../views/ExpertList.vue'
 import ExpertInfo from '../views/ExpertInfo.vue'
-import Catalog from '../views/Catalog.vue'
+import ApplicationList from '../views/ApplicationList.vue'
 
 const routes = [
 	{
@@ -26,10 +26,11 @@ const routes = [
 		component: ExpertInfo,
 		path: '/experts/:id'
 	},
+
 	{
-		name: 'Catalog',
-		component: Catalog,
-		path: '/catalog'
+		name: 'ApplicationList',
+		component: ApplicationList,
+		path: '/applications'
 	}
 ]
 

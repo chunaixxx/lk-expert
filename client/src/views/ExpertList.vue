@@ -8,7 +8,11 @@
 				:to="'/experts/' + expert.id"
 				:key="expert.id"
 			>
-				<VExpertCard :expert="expert" class="expert-list__card"></VExpertCard>
+				<VExpertCard
+					:expert="expert"
+					class="expert-list__card"
+					type="simple"
+				></VExpertCard>
 			</router-link>
 		</div>
 		{{ expertOne }}

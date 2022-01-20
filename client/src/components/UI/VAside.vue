@@ -26,6 +26,11 @@
 					Список экспертов
 				</VButton>
 			</router-link>
+			<router-link to="/applications">
+				<VButton class="button_primary-900 aside__button">
+					Заявки экспертов
+				</VButton>
+			</router-link>
 		</nav>
 		<slot></slot>
 	</aside>
