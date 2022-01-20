@@ -16,7 +16,7 @@ module.exports = {
 				useTabs: true,
 				arrowParens: 'avoid',
 				trailingComma: 'none',
-                endOfLine: ['no-error', 'auto']
+                endOfLine: 'auto'
 			},
 		],
 
