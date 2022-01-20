@@ -6,7 +6,7 @@
 					Личный кабинет
 				</VButton>
 			</router-link>
-			<router-link to="/s">
+			<router-link to="/catalog">
 				<VButton class="button_primary-900 aside__button">
 					Каталог решений
 				</VButton>
