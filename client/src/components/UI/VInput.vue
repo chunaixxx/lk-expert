@@ -21,5 +21,11 @@ const props = defineProps({ modelValue: String })
 	&:focus {
 		color: $primary-500;
 	}
+
+	&_search {
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+		border-right: 0;
+	}
 }
 </style>
