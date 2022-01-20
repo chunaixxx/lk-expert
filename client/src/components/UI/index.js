@@ -4,6 +4,8 @@ import VTextarea from './VTextarea.vue'
 import VRadio from './VRadio.vue'
 import VAside from './VAside.vue'
 import VExpertCard from './VExpertCard.vue'
+import VCollapsible from './VCollapsible.vue'
+import VCheckbox from './VCheckbox.vue'
 
 const Components = {
 	VButton,
@@ -11,7 +13,9 @@ const Components = {
 	VTextarea,
 	VRadio,
 	VAside,
-	VExpertCard
+	VExpertCard,
+	VCollapsible,
+	VCheckbox
 }
 
 export default Components
