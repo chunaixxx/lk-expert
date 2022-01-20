@@ -6,13 +6,13 @@
 			:class="{ collapsible__button_active: isOpen }"
 			@click="handlerClick()"
 		>
-            <div class="collapsible__wrapper">
-                <img v-if="isOpen" src="@/assets/icons/minus.svg" alt="Закрыть">
-                <img v-else src="@/assets/icons/plus.svg" alt="Открыть">
-                {{ props.title }}
-            </div>
+			<div class="collapsible__wrapper">
+				<img v-if="isOpen" src="@/assets/icons/minus.svg" alt="Закрыть" />
+				<img v-else src="@/assets/icons/plus.svg" alt="Открыть" />
+				{{ props.title }}
+			</div>
 
-            <span class="collapsible__count">{{ props.count }}</span>
+			<span class="collapsible__count">{{ props.count }}</span>
 		</button>
 
 		<div
@@ -20,7 +20,6 @@
 			:style="{ maxHeight: maxHeightContent + 'px' }"
 			ref="content"
 		>
-			<p>Lorem ipsum...</p>
 			<slot></slot>
 		</div>
 	</div>
@@ -50,36 +49,36 @@ onMounted(() => {
 
 <style lang="scss" scoped>
 .collapsible {
-    &__wrapper {
-        display: flex;
-        align-items: center;
-        gap: 24px;
-    }
+	&__wrapper {
+		display: flex;
+		align-items: center;
+		gap: 24px;
+	}
 
 	&__button {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        
-        padding: 5px 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		padding: 5px 0;
 
 		width: 100%;
 		font-size: 15px;
-        font-weight: bold;
-        text-transform: uppercase;
-        color: $primary-1000;
-        margin-bottom: 10px;
+		font-weight: bold;
+		text-transform: uppercase;
+		color: $primary-1000;
+		margin-bottom: 10px;
 
-        background-color: transparent;
+		background-color: transparent;
 		cursor: pointer;
 		border: none;
 		outline: none;
 	}
 
-    &__count {
-        font-weight: bold;
-        color: $secodary-text-200
-    }
+	&__count {
+		font-weight: bold;
+		color: $secodary-text-200;
+	}
 
 	&__content {
 		padding: 0 40px;
