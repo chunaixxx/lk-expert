@@ -6,6 +6,7 @@ import VAside from './VAside.vue'
 import VExpertCard from './VExpertCard.vue'
 import VCollapsible from './VCollapsible.vue'
 import VCheckbox from './VCheckbox.vue'
+import VDropDown from './VDropDown.vue'
 
 const Components = {
 	VButton,
@@ -15,7 +16,8 @@ const Components = {
 	VAside,
 	VExpertCard,
 	VCollapsible,
-	VCheckbox
+	VCheckbox,
+	VDropDown
 }
 
 export default Components
