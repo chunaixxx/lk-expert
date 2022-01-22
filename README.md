@@ -4,6 +4,9 @@
 
 > У АИМ есть десятки физических лиц, готовых выступать экспертами и делиться своими знаниями и опытом. Сейчас экспертам направляется Excel табличка, они проставляют в ней оценки и высылают их в ответном письме.
 
+## Демо
+[click](https://chunaixxx.github.io/lk-expert/)
+
 ## Полезные ресурсы
 - [Распределение задач](https://docs.google.com/spreadsheets/d/1kCbNuW-1wv6cBMMUvYl7X29OEylRSKIGED_SfiRJxOo/edit#gid=0)
 - [Макет приложения (Figma)](https://www.figma.com/file/gUGBNg13E6hFcvzYDTShyD/)
