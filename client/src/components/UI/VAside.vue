@@ -6,24 +6,24 @@
 					Личный кабинет
 				</VButton>
 			</router-link>
-			<router-link to="/s">
+			<router-link to="/catalog">
 				<VButton class="button_primary-900 aside__button">
 					Каталог решений
-				</VButton>
-			</router-link>
-			<router-link to="/s">
-				<VButton class="button_primary-900 aside__button">
-					Заявки экспертов
-				</VButton>
-			</router-link>
-			<router-link to="/s">
-				<VButton class="button_primary-900 aside__button">
-					Отчеты об оценках
 				</VButton>
 			</router-link>
 			<router-link to="/experts">
 				<VButton class="button_primary-900 aside__button">
 					Список экспертов
+				</VButton>
+			</router-link>
+			<router-link to="/applications">
+				<VButton class="button_primary-900 aside__button">
+					Заявки экспертов
+				</VButton>
+			</router-link>
+			<router-link to="/reports">
+				<VButton class="button_primary-900 aside__button">
+					Отчеты об оценках
 				</VButton>
 			</router-link>
 		</nav>

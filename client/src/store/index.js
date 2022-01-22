@@ -17,7 +17,8 @@ export default createStore({
 					'https://ros-test.info/images/article/5b03f6af4cd63.png',
 					'https://dspipe.ru/upload/iblock/a92/a92f5d00c3d5076d5ba62c25d3f0c5fc.png'
 				],
-				top: 7
+				top: 7,
+				needAccept: 'ESET Dynamic Threat Defense'
 			}
 		]
 	},
