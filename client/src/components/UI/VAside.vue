@@ -13,11 +13,6 @@
 			</router-link>
 			<router-link to="/s">
 				<VButton class="button_primary-900 aside__button">
-					Заявки экспертов
-				</VButton>
-			</router-link>
-			<router-link to="/s">
-				<VButton class="button_primary-900 aside__button">
 					Отчеты об оценках
 				</VButton>
 			</router-link>
@@ -29,6 +24,11 @@
 			<router-link to="/applications">
 				<VButton class="button_primary-900 aside__button">
 					Заявки экспертов
+				</VButton>
+			</router-link>
+			<router-link to="/reports">
+				<VButton class="button_primary-900 aside__button">
+					Отчеты об оценках
 				</VButton>
 			</router-link>
 		</nav>

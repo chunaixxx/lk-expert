@@ -4,6 +4,7 @@ import Login from '../views/Login.vue'
 import ExpertList from '../views/ExpertList.vue'
 import ExpertInfo from '../views/ExpertInfo.vue'
 import ApplicationList from '../views/ApplicationList.vue'
+import Reports from '../views/Reports.vue'
 
 const routes = [
 	{
@@ -31,6 +32,11 @@ const routes = [
 		name: 'ApplicationList',
 		component: ApplicationList,
 		path: '/applications'
+	},
+	{
+		name: 'Reports',
+		component: Reports,
+		path: '/reports'
 	}
 ]
 
