@@ -19,9 +19,11 @@
 					<div class="table__cell">{{ report.date }}</div>
 				</div>
 			</div>
-			<VButton class="button_secondary reports-page__button">
-				Загрузить отчеты
-			</VButton>
+			<router-link to="/reports/load">
+				<VButton class="button_secondary reports-page__button">
+					Загрузить отчеты
+				</VButton>
+			</router-link>
 		</div>
 	</div>
 </template>

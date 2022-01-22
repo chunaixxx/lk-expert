@@ -5,6 +5,7 @@ import ExpertList from '../views/ExpertList.vue'
 import ExpertInfo from '../views/ExpertInfo.vue'
 import ApplicationList from '../views/ApplicationList.vue'
 import Reports from '../views/Reports.vue'
+import LoadReports from '../views/LoadReports.vue'
 
 const routes = [
 	{
@@ -37,6 +38,11 @@ const routes = [
 		name: 'Reports',
 		component: Reports,
 		path: '/reports'
+	},
+	{
+		name: 'LoadReports',
+		component: LoadReports,
+		path: '/reports/load'
 	}
 ]
 

@@ -11,11 +11,6 @@
 					Каталог решений
 				</VButton>
 			</router-link>
-			<router-link to="/s">
-				<VButton class="button_primary-900 aside__button">
-					Отчеты об оценках
-				</VButton>
-			</router-link>
 			<router-link to="/experts">
 				<VButton class="button_primary-900 aside__button">
 					Список экспертов
