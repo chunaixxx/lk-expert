@@ -7,6 +7,7 @@ import ApplicationList from '../views/ApplicationList.vue'
 import Reports from '../views/Reports.vue'
 import LoadReports from '../views/LoadReports.vue'
 import NotFound from '../views/NotFound.vue'
+import Catalog from '../views/Catalog.vue'
 
 const routes = [
 	{
@@ -39,6 +40,11 @@ const routes = [
 		name: 'Reports',
 		component: Reports,
 		path: '/reports'
+	},
+	{
+		name: 'Catalog',
+		component: Catalog,
+		path: '/catalog'
 	},
 	{
 		name: 'LoadReports',
