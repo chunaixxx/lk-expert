@@ -59,11 +59,13 @@ onMounted(() => {
 
 <style lang="scss" scoped>
 .drop-down {
+	height: 100%;
 	display: flex;
+	align-items: center;
 	gap: 20px;
 	cursor: pointer;
-	max-width: 150px;
-	padding: 10px 4px;
+	width: 100%;
+	padding: 10px 55px;
 	transition: background 0.4s ease;
 
 	&_active {
@@ -73,6 +75,10 @@ onMounted(() => {
 	&__title {
 		text-transform: uppercase;
 		color: $primary-800;
+	}
+
+	&__img {
+		width: 10px;
 	}
 }
 
